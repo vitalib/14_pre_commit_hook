@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import subprocess
+
+tests_run = subprocess.run(['python3', 'tests.py'])
+exit(tests_run.returncode)
